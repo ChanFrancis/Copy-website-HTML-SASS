@@ -35,6 +35,12 @@ body {
 
     #home {
         color: black;
+        transition: 0.4s;
+
+        &:hover{
+            color: white;
+            transition: 0.4s;
+        }
     }
 }
 
@@ -116,9 +122,11 @@ body {
     rotate: 90deg;
     font-weight: bolder;
     color: rgb(226, 218, 218);
+    transition: 0.4s;
 
     &:hover {
         color: $base-color;
+        transition: 0.4s;
     }
 }
 
@@ -197,6 +205,13 @@ body {
                     border: black 2px solid;
                     padding: 3px 8%;
                     font-weight: 500;
+                    transition: 0.4s;
+                }
+
+                .Sct2_Donate:hover{
+                    color: white;
+                    background-color: black;
+                    transition: 0.4s;
                 }
 
                 .member {
@@ -237,7 +252,6 @@ body {
                 height: 400px;
                 text-align: center;
                 width: 100%;
-
             }
 
             .viewall {
@@ -245,10 +259,12 @@ body {
                 color: black;
                 border: 2px black solid;
                 padding: 3px 5%;
+                transition: 0.4s;
 
                 &.viewall:hover {
                     background-color: black;
                     color: white;
+                    transition: 0.4s;
                 }
             }
         }
@@ -387,9 +403,11 @@ body {
         color: $base-color;
         font-weight: 500;
         text-decoration: none;
+        transition: 0.4s;
 
         &:hover {
             color: white;
+            transition: 0.4s;
         }
     }
 }
@@ -442,6 +460,13 @@ body {
             color: white;
             font-weight: 700;
             border: $second-color 1px solid;
+            transition: 0.4s;
+
+            &:hover{
+                background-color: #7771D6;
+                transition: 0.4s;
+
+            }
         }
 
         .footerRS {

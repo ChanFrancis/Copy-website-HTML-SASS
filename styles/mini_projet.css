@@ -31,6 +31,11 @@ body {
 }
 .navbar #home {
   color: black;
+  transition: 0.4s;
+}
+.navbar #home:hover {
+  color: white;
+  transition: 0.4s;
 }
 
 .hero1 {
@@ -104,9 +109,11 @@ body {
   rotate: 90deg;
   font-weight: bolder;
   color: rgb(226, 218, 218);
+  transition: 0.4s;
 }
 .donate h2:hover {
   color: #FFBEDF;
+  transition: 0.4s;
 }
 
 .donate1 {
@@ -177,6 +184,12 @@ body {
   border: black 2px solid;
   padding: 3px 8%;
   font-weight: 500;
+  transition: 0.4s;
+}
+.second .ourmission .ourmission2 .deuxliens .Sct2_Donate:hover {
+  color: white;
+  background-color: black;
+  transition: 0.4s;
 }
 .second .ourmission .ourmission2 .deuxliens .member {
   color: white;
@@ -217,10 +230,12 @@ body {
   color: black;
   border: 2px black solid;
   padding: 3px 5%;
+  transition: 0.4s;
 }
 .third .left3 .left3column .viewall.viewall:hover {
   background-color: black;
   color: white;
+  transition: 0.4s;
 }
 .third .right3column {
   display: grid;
@@ -334,9 +349,11 @@ body {
   color: #FFBEDF;
   font-weight: 500;
   text-decoration: none;
+  transition: 0.4s;
 }
 .fifth .sct5_link:hover {
   color: white;
+  transition: 0.4s;
 }
 
 footer {
@@ -382,6 +399,11 @@ footer .emailSubmit {
   color: white;
   font-weight: 700;
   border: #7771D6 1px solid;
+  transition: 0.4s;
+}
+footer .emailSubmit:hover {
+  background-color: #7771D6;
+  transition: 0.4s;
 }
 footer .footerRS {
   color: white;
